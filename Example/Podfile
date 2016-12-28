@@ -1,0 +1,6 @@
+use_frameworks!
+target 'IPaBlockOperation_Tests' do
+  pod 'IPaBlockOperation', :path => '../'
+  
+  
+end
