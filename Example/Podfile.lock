@@ -1,0 +1,16 @@
+PODS:
+  - IPaBlockOperation (0.1.0)
+
+DEPENDENCIES:
+  - IPaBlockOperation (from `../`)
+
+EXTERNAL SOURCES:
+  IPaBlockOperation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IPaBlockOperation: 9b8ef8b372c30360268aae771ba82db2900fbe20
+
+PODFILE CHECKSUM: 59cf9332537d96355b25c0f34403677148c5601a
+
+COCOAPODS: 1.1.1
