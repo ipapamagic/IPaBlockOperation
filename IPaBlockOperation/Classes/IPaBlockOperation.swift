@@ -34,9 +34,7 @@ open class IPaBlockOperation : Operation {
             return true
         }
     }
-    public
-    
-    init(block:@escaping IPaBlockOperationBlock) {
+    @objc public init(block:@escaping IPaBlockOperationBlock) {
         operationBlock = block
     }
     override open func start() {
