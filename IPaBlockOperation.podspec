@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IPaBlockOperation'
-  s.version          = '2.0'
+  s.version          = '2.1'
   s.summary          = 'Block base NSOPeration with completion to finish operation'
 
 # This description is used to generate tags and improve search results.
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
     s.xcconfig = {
-        "SWIFT_VERSION" => "4.0",
+        "SWIFT_VERSION" => "4.1",
         "SWIFT_SWIFT3_OBJC_INFERENCE" => "off"
     }
 end

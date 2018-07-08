@@ -15,18 +15,22 @@ open class IPaBlockOperation : Operation {
     override open var isExecuting:Bool {
         get { return _executing }
         set {
-            willChangeValue(forKey: "isExecuting")
-            _executing = newValue
-            didChangeValue(forKey: "isExecuting")
+            if _executing != newValue {
+                willChangeValue(forKey: "isExecuting")
+                _executing = newValue
+                didChangeValue(forKey: "isExecuting")
+            }
         }
     }
     
     override open var isFinished:Bool {
         get { return _finished }
         set {
-            willChangeValue(forKey: "isFinished")
-            _finished = newValue
-            didChangeValue(forKey: "isFinished")
+            if self.isFinished != newValue {
+                willChangeValue(forKey: "isFinished")
+                _finished = newValue
+                didChangeValue(forKey: "isFinished")
+            }
         }
     }
     override open var isConcurrent:Bool {
