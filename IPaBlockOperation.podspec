@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IPaBlockOperation'
-  s.version          = '2.1'
+  s.version          = '2.2'
   s.summary          = 'Block base NSOPeration with completion to finish operation'
-  s.swift_version = '4.1'
+  s.swift_version    = '4.2'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
