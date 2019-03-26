@@ -110,7 +110,6 @@
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
 				DCF20D1824231A11068DB769 /* [CP] Embed Pods Frameworks */,
-				8E689CEF567126F96D3C3CAC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,6 +143,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -168,28 +168,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8E689CEF567126F96D3C3CAC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IPaBlockOperation_Tests/Pods-IPaBlockOperation_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		DCF20D1824231A11068DB769 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-IPaBlockOperation_Tests/Pods-IPaBlockOperation_Tests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-IPaBlockOperation_Tests/Pods-IPaBlockOperation_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/IPaBlockOperation/IPaBlockOperation.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -198,7 +183,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IPaBlockOperation_Tests/Pods-IPaBlockOperation_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IPaBlockOperation_Tests/Pods-IPaBlockOperation_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F26CC89AAB93C377E13B7338 /* [CP] Check Pods Manifest.lock */ = {
@@ -278,7 +263,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -324,7 +309,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -336,7 +321,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4DEFDCEA903A97812FC96E4A /* Pods-IPaBlockOperation_Tests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 5499977PT2;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -355,7 +339,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DA44EB02E0C02E2E925F3FC6 /* Pods-IPaBlockOperation_Tests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 5499977PT2;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
