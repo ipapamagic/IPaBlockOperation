@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IPaBlockOperation'
-  s.version          = '2.3'
+  s.version          = '2.4.0'
   s.summary          = 'Block base NSOPeration with completion to finish operation'
   s.swift_version    = '5.0'
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'IPaBlockOperation/Classes/**/*'
+  s.source_files = 'Sources/IPaBlockOperation/**/*'
   
   # s.resource_bundles = {
   #   'IPaBlockOperation' => ['IPaBlockOperation/Assets/*.png']
